@@ -16,7 +16,7 @@ Then you can define a new job that deploys to Heroku:
 ```yaml
 deploy-to-heroku-staging:
   stage: deploy
-  image: sandrinodimattia/heroku-deploy-docker:0.1.0
+  image: sandrinodimattia/heroku-deploy-docker:0.2.0
   environment:
     name: heroku-staging
     url: https://my-app.herokuapp.com/

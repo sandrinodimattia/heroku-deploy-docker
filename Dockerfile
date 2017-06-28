@@ -10,4 +10,4 @@ RUN apt-get update \
     && apt-get clean \
     && apt-get autoremove -y
 
-RUN gem install dpl
+RUN gem install dpl -v 1.8.38
